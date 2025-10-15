@@ -36,3 +36,7 @@ aside {
     grid-area: aside;
     background: #f5f5f5;
 }
+footer {
+    grid-area: footer;
+    text-align: center;
+}

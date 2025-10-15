@@ -1,0 +1,37 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "hero"
+        "main"
+        "footer";
+    gap: 10px;
+    margin: 10px;
+}
+header, main, footer {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    }
+header { 
+    background: #dde; grid-area: header; 
+}
+.hero {
+    grid-area: hero;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background: #eef;
+    border-radius: 10px;
+}
+.hero h1 { 
+    margin-right: 10px; 
+}
+main { 
+    grid-area: main; 
+}
+footer { 
+    grid-area: footer; 
+    text-align: center; 
+}
